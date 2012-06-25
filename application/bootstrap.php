@@ -85,7 +85,7 @@ if (isset($_SERVER['KOHANA_ENV']))
 Kohana::init(array(
 	'base_url'   => '/',
     'profile' => (Kohana::$environment !== Kohana::PRODUCTION), //see how good you are
-    'caching' => (Kohana::$environment === Kohana::PRODUCTION),
+    //'caching' => (Kohana::$environment === Kohana::PRODUCTION),
     'errors' => TRUE, //for custom 404, 500 FALSE for internal error handling
     'index_file' => '',
 ));
