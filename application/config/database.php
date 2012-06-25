@@ -18,10 +18,10 @@ return array
 			 *
 			 * Ports and sockets may be appended to the hostname.
 			 */
-			'hostname'   => 'localhost',
-			'database'   => 'lepd',
-			'username'   => 'root',
-			'password'   => 'vertrigo',
+			'hostname'   => 'tunnel.pagodabox.com:3306',
+			'database'   => 'thetadb',
+			'username'   => 'letty',
+			'password'   => '3z4jRs0g',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
